@@ -29,14 +29,16 @@ export default function CartaDeAmor() {
             {/* Reproductor de YouTube oculto */}
             {mostrarCarta && (
                 <iframe
-                    width="0"
-                    height="0"
-                    src="https://www.youtube.com/embed/uoX_3HE8ScI?autoplay=1&loop=1&playlist=uoX_3HE8ScI"
+                    width="1"
+                    height="1"
+                    src="https://www.youtube.com/embed/bLLBmCygftI?autoplay=1"
                     title="Canción de amor"
                     frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowFullScreen
+                    style={{ position: "absolute", left: "-9999px" }} // Oculto pero presente
                 ></iframe>
+
             )}
 
             {/* Carta de amor */}
@@ -62,6 +64,7 @@ export default function CartaDeAmor() {
 
                    Se que no es mucho pero no pude  contenerme mas para darte esto y solo te lo paso ahora
                     No se si batallaste en llegar aquí pero quiero que sepas que te amo.
+                    Se que no es la mejor canción pero uff como me encantas (SISISI aqui te burlas de que dice Dios)
 
                     <br />
                     <br />
@@ -73,6 +76,20 @@ export default function CartaDeAmor() {
                     Mi niña
                     Mi Mu
                     Mi todo.
+                    <br />
+                    Sigo pensando si todo lo que hago es suficiente porque tu das tanto y no te das cuenta.
+                    <br />
+                    Me calmas me tienes paciencia me das amor cuidados atención
+                    <br />
+                    Espero que los años que nos queda de vida sean suficiente para demostrarte que iba enserio
+                    <br />
+                    Gracias por motivarme cada dia , cada noche cada vez que me bajoneo espero poder regreasrte todo eso algun dia.
+                    <br />
+                    No tengo palabras para decirte porque ya viste soy mas de acciones mi niña grande.
+                    <br />
+                    Aunque queda 1 pregunta mas y es mas complicada que todas las demas juntas y no dicho por mi, Dicho por todos los demas a lo largo de la historia de la humanidad.
+                    <br />
+                    Revisa en la carpeta TrueCrime de las de Xbox Clasico
                 </div>
             )}
         </div>

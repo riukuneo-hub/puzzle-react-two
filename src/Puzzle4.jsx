@@ -51,7 +51,7 @@ export default function Puzzle4(){
                 const nuevas = [...respuestas]
                 nuevas[3] = number
                 setRespuestas(nuevas)
-                if(number === 43.67 || number === 43.66){
+                if(number === 43.66){
                     setMensaje("Cuarta Correcta")
                 } else {setMensaje("Cuarta incorrecta")}
             }}/>
@@ -75,7 +75,7 @@ export default function Puzzle4(){
                 type="text"
                 onChange={(e) => {
                     const valor = e.target.value.trim();
-                    const correcto = [43.67 ,45,68,72,218];
+                    const correcto = [43.66 ,45,68,72,218];
 
                     if (valor === correcto.join(" ")) {
                         setPuedeAvanzar(true);
